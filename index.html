@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombas Lógicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Gris claro */
+            color: #333; /* Gris oscuro */
+        }
+        header {
+            background-color: #003366; /* Azul oscuro */
+            color: #fff; /* Blanco */
+            padding: 20px; /* Aumenta el padding para espacio adicional */
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em; /* Tamaño grande para el título */
+            margin: 0; /* Elimina el margen por defecto */
+        }
+        header img {
+            max-width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+            height: auto;
+            margin-bottom: 5px; /* Espacio entre la imagen y el texto */
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff; /* Blanco */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra gris oscuro */
+        }
+        h2, h3 {
+            color: #003366; /* Azul oscuro */
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0066cc; /* Azul claro */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366; /* Azul oscuro */
+            color: #fff; /* Blanco */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="th.jpg" alt="imagen" />
+    <h1>Bombas Lógicas</h1>
+    <p>Equipo de Trabajo: Grupo1</p>
+</header>
+
+<section>
+    <h2>1. ¿En qué consiste?</h2>
+    <p>Diseñado para activarse cuando se cumplen ciertas condiciones predefinidas, una bomba lógica permanece inactiva hasta que ocurre un evento específico, como una fecha en particular, una acción de un usuario, o la llegada de un cierto nivel de actividad en el sistema.</p>
+    <img src="p.jpg" alt="imagen" />
+</section>
+
+<section>
+    <h2>2. Vectores de ataque</h2>
+    <ul>
+        <li>Ingeniería Social (Phishing)</li>
+        <p>Los atacantes manipulan a las víctimas para que realicen acciones que comprometan la seguridad del sistema, como abrir archivos adjuntos maliciosos o hacer clic en enlaces que descargan malware. El phishing es una forma muy común, en la cual se engaña a las personas con correos electrónicos o mensajes falsos que parecen legítimos, induciendo a la víctima a instalar malware, como una bomba lógica, sin saberlo.</p>
+        <li>Explotación de Vulnerabilidades de Software</li>
+        <p>Mediante la explotación de vulnerabilidades en sistemas no actualizados o mal configurados, el atacante puede introducir malware en el sistema. Por ejemplo, una vulnerabilidad en un software financiero podría permitir la instalación de una bomba lógica que se active después de realizar ciertas operaciones.</p>
+        <li>Acceso Interno Malintencionado (Insider Threat)</li>
+        <p>Los empleados descontentos o personas con acceso legítimo a sistemas críticos pueden ser una amenaza significativa. Estos "insiders" pueden intencionalmente instalar una bomba lógica en el sistema, programándola para activarse después de que abandonen la empresa o bajo ciertas condiciones. Este es uno de los escenarios más comunes para este tipo de malware, ya que el atacante tiene un conocimiento profundo de los sistemas y el acceso necesario.</p>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Características</h2>
+    <p>Condiciones de activación: Las bombas lógicas se activan cuando sucede algo específico, como:</p>
+    <ul>
+        <li>Una fecha o tiempo particular (por ejemplo, un "time bomb" que se ejecuta en una fecha específica).</li>
+        <li>La ejecución de un programa específico.</li>
+        <li>La eliminación o modificación de un archivo.</li>
+    </ul>
+
+    <p>Acción destructiva: Una vez activada, la bomba lógica puede ejecutar acciones maliciosas como:</p>
+    <ul>
+        <li>Eliminar archivos.</li>
+        <li>Corromper datos.</li>
+        <li>Deshabilitar sistemas o funciones críticas.</li>
+        <li>Alterar bases de datos.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>4. Tipos o clases</h2>
+    <ul>
+        <li>Time Bomb (Bomba de Tiempo): Se activa en una fecha u hora específica.</li>
+        <li>Event-Driven Bomb (Bomba por Evento): Se ejecuta cuando ocurre una acción específica, como abrir un archivo o borrar un programa.</li>
+        <li>User-Based Bomb (Bomba por Usuario): Se dispara cuando un usuario concreto realiza una acción determinada, como iniciar sesión.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>5. Casos más conocidos</h2>
+    <p>Caso de la Bomba Lógica en un servidor de Medco Health Solutions Inc (2003)</p>
+    <p>En 2003, Yung-Hsun Lin, también conocido como Andy Lin, cambió un código en un servidor de Medco Health Solutions Inc., las oficinas centrales en Fair Lawn Nueva Jersey, donde estaba empleado como administrador de Unix, creando un conjunto de bombas lógicas para activarse en su cumpleaños en 2004. Falló en funcionar debido a un error de programación, así que Lin corrigió el error y la reajustó para activarse en su siguiente cumpleaños, pero fue descubierta e inhabilitada por un administrador de los sistemas de Computación de Medco algunos meses antes de la fecha del disparador. Lin se declaró culpable y fue sentenciado a 30 meses de cárcel en una prisión federal además de 81,200 dólares estadounidenses en restitución. Los cargos sostuvieron una sentencia máxima de 10 años y una multa por 250,000 dólares.</p>
+    <img src="med.jpg" alt="imagen" />
+    <p>Caso de la Bomba Lógica de la Bolsa de Valores de Corea del Sur (2007)</p>
+    <p>En 2007, un programador de la Bolsa de Valores de Corea del Sur creó una bomba lógica con el objetivo de destruir datos críticos después de ser despedido. Aunque el plan fue descubierto antes de que se activara, el ataque destacó el riesgo de empleados internos con acceso a sistemas sensibles. La bomba había sido diseñada para corromper los datos financieros de la bolsa. Estos casos resaltan el peligro de las bombas lógicas, en especial cuando el ataque proviene de empleados internos con conocimiento y acceso a los sistemas críticos.</p>
+    <img src="valores.jpg" alt="imagen" />
+</section>
+
+<section>
+    <h2>6. Cómo detectarlos</h2>
+    <p>Herramientas para la Detección de Bombas Lógicas</p>
+    <ul>
+        <li>Antivirus y Software de Seguridad: Ejemplos: Norton, McAfee, Bitdefender.</li>
+        <li>Sistemas de Detección y Prevención de Intrusiones (IDS/IPS): Ejemplos: Snort, Suricata.</li>
+        <li>Herramientas de Monitoreo de Archivos: Ejemplos: OSSEC, AIDE.</li>
+        <li>Escáneres de Integridad de Archivos: Ejemplos: Tripwire, Samhain.</li>
+    </ul>
+    <p>Técnicas para la Detección de Bombas Lógicas</p>
+    <ul>
+        <li>Monitoreo de Actividades del Sistema: Vigilar la actividad del sistema en busca de comportamientos anómalos que puedan indicar la presencia de una bomba lógica. Esto incluye la vigilancia de cambios en el sistema de archivos, registros y bases de datos.</li>
+        <li>Auditorías de Seguridad Regular: Realizar auditorías de seguridad periódicas para revisar la integridad del sistema y detectar posibles vulnerabilidades. Esto incluye la revisión del código fuente y la configuración del sistema.</li>
+        <li>Segmentación y Control de Acceso: Restringir el acceso a sistemas críticos y segmentar redes para limitar el impacto potencial de cualquier ataque. Esto ayuda a reducir la superficie de ataque y a contener cualquier daño potencial.</li>
+        <li>Entrenamiento y Concientización de Empleados: Capacitar a los empleados sobre las mejores prácticas de seguridad y los riesgos asociados con el malware, incluyendo las bombas lógicas. Esto ayuda a reducir el riesgo de que un empleado malintencionado o desinformado introduzca malware en el sistema.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>7. Cómo protegerse frente a ese tipo de malware</h2>
+    <p>Control de Acceso y Gestión de Privilegios</p>
+    <ul>
+        <li>Asegúrate de que los usuarios y empleados solo tengan acceso a los recursos necesarios para realizar sus tareas.</li>
+    </ul>
+    <p>Actualización y Parches</p>
+    <ul>
+        <li>Aplica parches y actualizaciones de seguridad de manera oportuna para corregir vulnerabilidades que puedan ser explotadas por malware.</li>
+    </ul>
+    <p>Copias de Seguridad y Recuperación</p>
+   
+
+    <ul>
+        <li>Asegúrate de que las copias de seguridad se realicen de manera regular y se almacenen en un lugar seguro.</li>
+    </ul>
+    <p>Control de Cambios y Gestión de Configuración</p>
+    <ul>
+        <li>Registra y revisa todos los cambios en el sistema y en la configuración para detectar posibles modificaciones no autorizadas.</li>
+    </ul>
+    <p>Análisis de Vulnerabilidades y Pruebas de Penetración</p>
+    <ul>
+        <li>Identifica y corrige vulnerabilidades en el sistema antes de que puedan ser explotadas.</li>
+    </ul>
+    <p>Implementación de Soluciones de Seguridad Avanzadas</p>
+    <ul>
+        <li>Estas herramientas pueden identificar actividades sospechosas y patrones de comportamiento que podrían indicar la presencia de malware.</li>
+    </ul>
+    <p>Formación y Concientización</p>
+    <ul>
+        <li>Ofrece formación sobre seguridad cibernética y las amenazas relacionadas con el malware. Educa a los empleados sobre cómo identificar correos electrónicos sospechosos y prácticas de seguridad seguras.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Bibliografía</h2>
+    <ul>
+        <li><a href="https://www.wikiwand.com/es/articles/Bomba_l%C3%B3gica" target="_blank">Artículo sobre bombas lógicas en Wikiwand</a></li>
+        <li><a href="https://tiposde.net/tipos-de-virus-informaticos-bombas-logicas/" target="_blank">Articulo virus informaticos bombas lógicas</a></li>
+        <li><a href="https://www.vpnunlimited.com/es/help/cybersecurity/logic-bomb" target="_blank">Articulo de cyber-seguridad</a></li>
+    </ul>
+</section>
+</section>
+    <h2>Pregunta para el parcial</h2>
+    <p>¿Cuál es una medida efectiva para protegerse de este malware?</p>
+    <ul>
+        <li>A) Usar un antivirus actualizado</li>
+        <li>B) No utilizar internet</li>
+        <li>C) Reiniciar el equipo diariamente</li>
+        <li>D) Ninguna de las anteriores</li>
+    </ul>
+    <p><strong>Respuesta:</strong> A) Usar un antivirus actualizado</p>
+</section>
+
+<footer>
+    <p>Malware - Bombas Lógicas</p>
+</footer>
+
+</body>
+</html>
